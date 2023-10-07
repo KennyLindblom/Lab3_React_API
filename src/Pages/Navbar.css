@@ -1,0 +1,43 @@
+/* Navbar styling */
+.navbar {
+    background-color: #007bfe; /* Change to your preferred background color */
+  }
+  
+  .navbar-brand {
+    color: rgb(0, 0, 0); /* Text color for the brand */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: rgb(14, 13, 13); /* Color of the toggle icon */
+  }
+  
+  /* Navbar links */
+  .navbar-nav .nav-link {
+    color: rgb(0, 0, 0) !important; /* Text color for the links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #453ff0 !important; /* Text color on hover (change to your preferred color) */
+  }
+  
+  /* Search bar styling */
+  .form-inline .form-control {
+    background-color: #fbfbfb; /* Background color for the input field */
+    color: #333; /* Text color for the input field */
+  }
+  
+  .form-inline .btn-outline-success {
+    background-color: #28a745; /* Background color for the search button */
+    color: white; /* Text color for the search button */
+    border-color: #010101; /* Border color for the search button */
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Smooth transitions on hover */
+  }
+  
+  .form-inline .btn-outline-success:hover {
+    background-color: #218838; /* Background color on hover (darker) */
+    border-color: #1e7e34; /* Border color on hover (darker) */
+    color: white; /* Text color on hover */
+  }
